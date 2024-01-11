@@ -1,0 +1,240 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffae3;
+    color: #a5441a;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+form input[type="radio"]{
+    vertical-align: text-top;
+}
+
+form input[type="submit"] {
+    background-color: #a5441a;
+    display: block;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #cb8944;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+header {
+    background-color: #f3e5ab;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #cb8944;
+}
+
+li.active a:active{
+    color: #893916;
+}
+
+a:link {
+  color: #cb8944;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: #893916;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f3e5ab;
+    color: #a5441a;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    color: #a5441a;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 650px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+
+a {
+    color: #cb8944;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner-center-cover{
+    background-image: url("cakes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+    opacity: 1;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.banner-center-cover p{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 5;
+    transform: translate(-50%);
+    color: #00ff00;
+}
+
+aside {
+    width: 20%;
+    padding: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+    font-style: italic;
+    background-color: #ff9237;
+    color: #fffae3;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    clear: right;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: #a5441a solid 3px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #893916;
+    color: #ff9237;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cb8944;
+    color: #fffae3;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    text-shadow: #fff;
+}
+
+dl {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+    text-shadow: 1px 1px #cb8944;
+}
+
+.product-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}

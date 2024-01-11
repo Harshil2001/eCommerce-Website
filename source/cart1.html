@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Deals</title>
+</head>
+<body>
+    <header>
+        <h1>Find Great Deals on your Groceries!</h1>
+        <span id="currentDateTime"></span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="main_index.html">Home</a></li>
+            <li><a href="fresh_products.html">Fresh Products</a></li>
+            <li><a href="frozen.html">Frozen</a></li>
+            <li><a href="pantry.html">Pantry</a></li>
+            <li><a href="bfast_cereal.html">Breakfast and Cereal</a></li>
+            <li><a href="baking.html">Baking</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="candy.html">Candy</a></li>
+            <li class="right"><a href="cart.html">My Cart</a></li>
+            <li class="right"><a href="my_account.html">My-Account</a></li>
+            <li class="right"><a href="about-us.html">About Us</a></li>
+            <li class="right"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="deals">
+            <!-- Your left content goes here -->
+        </div>
+        <div class="right-content">
+            <h3><em>Here is your cart!</em></h3>
+
+            <div id="cart">
+                <ul id="cart-items"></ul>
+            </div>
+            
+            <br>
+            <button id="clear-button">Clear Cart</button>
+            <button id="purchase">Buy Now</button>
+            
+            <!-- <p>We love helping you save while you shop. Explore our Deals section to find a treasure trove of discounts, special offers, and exclusive promotions that will make your shopping experience even more rewarding.</p>
+
+            <p>Our Deals Selection </p> -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Raaed Syed - RAS220006</p>
+    </footer>
+    <script src="common.js"></script>
+    <script src="cart.js"></script>
+    <script>
+        displayCart();
+
+        const clearButton = document.getElementById("clear-button")
+        clearButton.addEventListener("click", function(){
+            localStorage.removeItem("cart")
+            localStorage.removeItem("json_inventory")
+            localStorage.removeItem("xml_inventory")
+            displayCart()
+        })
+
+        const buyButton = document.getElementById("purchase");
+        buyButton.addEventListener("click", function(){
+            purchaseOrder();
+            alert("Items purchased. Inventories have been updated.")
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 19,
+        "name": "Mayo mustard",
+        "price": 1.99,
+        "quantity": 8,
+        "sub_category": "condiments",
+        "imageSrc": "images\/mayomustard.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 20,
+        "name": "Peas",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "canned-goods",
+        "imageSrc": "images\/canned-peas.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 21,
+        "name": "Beans",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "canned-vegetable",
+        "imageSrc": "images\/canned-beans.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 22,
+        "name": "Peanut butter spread",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "butter-spread",
+        "imageSrc": "images\/butter spread.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 23,
+        "name": "Pasta",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "pasta-pizza",
+        "imageSrc": "images\/pasta.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 24,
+        "name": "Ranch",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "rollbacks",
+        "imageSrc": "images\/ranch.jpeg",
+        "category": "pantry"
+    },
+    {
+        "id": 25,
+        "name": "Raisin Bran",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "cereals",
+        "imageSrc": "images\/raisin bran.jpeg",
+        "category": "breakfast-cereal"
+    },
+    {
+        "id": 26,
+        "name": "Chocolate Pancake",
+        "price": 1.99,
+        "quantity": 3,
+        "sub_category": "pancakes",
+        "imageSrc": "images\/choco pancake.jpeg",
+        "category": "breakfast-cereal"
+    },
+    {
+        "id": 27,
+        "name": "Baked breakfast bread",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "breads",
+        "imageSrc": "images\/baked bf bread.jpeg",
+        "category": "breakfast-cereal"
+    },
+    {
+        "id": 28,
+        "name": "Oatmeal",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "oatmeal",
+        "imageSrc": "images\/oatmeal.jpeg",
+        "category": "breakfast-cereal"
+    },
+    {
+        "id": 29,
+        "name": "White bread",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "bf-rollback",
+        "imageSrc": "images\/white bread.jpeg",
+        "category": "breakfast-cereal"
+    },
+    {
+        "id": 30,
+        "name": "Apple filling",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "",
+        "imageSrc": "images\/apple filling.jpeg",
+        "category": "baking"
+    },
+    {
+        "id": 31,
+        "name": "Pie Crust",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "",
+        "imageSrc": "images\/pie crust.jpeg",
+        "category": "baking"
+    },
+    {
+        "id": 32,
+        "name": "Chocolate pudding mix",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "",
+        "imageSrc": "images\/choco pudding.jpeg",
+        "category": "baking"
+    },
+    {
+        "id": 33,
+        "name": "Pie Pans",
+        "price": 1.99,
+        "quantity": 5,
+        "sub_category": "",
+        "imageSrc": "images\/pie pans.jpeg",
+        "category": "baking"
+    }
+]

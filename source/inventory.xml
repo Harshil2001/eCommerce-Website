@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inventory>
+  <Product>
+    <id>37</id>
+    <name>Dragon Fruit</name>
+    <price>5.99</price>
+    <quantity>5</quantity>
+    <sub_category>fruit</sub_category>
+    <imageSrc>images/dragon fruit.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>1</id>
+    <name>Apples</name>
+    <price>2</price>
+    <quantity>5</quantity>
+    <sub_category>fruit</sub_category>
+    <imageSrc>images/apples.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>2</id>
+    <name>Bananas</name>
+    <price>1</price>
+    <quantity>8</quantity>
+    <sub_category>fruit</sub_category>
+    <imageSrc>images/banana.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>3</id>
+    <name>Oranges</name>
+    <price>3</price>
+    <quantity>5</quantity>
+    <sub_category>fruit</sub_category>
+    <imageSrc>images/orange.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>4</id>
+    <name>Lettuce</name>
+    <price>4</price>
+    <quantity>5</quantity>
+    <sub_category>vegetable</sub_category>
+    <imageSrc>images/lettuce.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>5</id>
+    <name>Tomatoes</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>vegetable</sub_category>
+    <imageSrc>images/tomato.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>6</id>
+    <name>Onions</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>vegetable</sub_category>
+    <imageSrc>images/onions.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>10</id>
+    <name>Fruit Bowl</name>
+    <price>3.99</price>
+    <quantity>5</quantity>
+    <sub_category>pre-cut</sub_category>
+    <imageSrc>images/fruitbowl.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>11</id>
+    <name>Red rose</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>flower</sub_category>
+    <imageSrc>images/flowers.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>12</id>
+    <name>salsa</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>salsa</sub_category>
+    <imageSrc>images/salsa.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>13</id>
+    <name>Fresh carrots</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>new-item</sub_category>
+    <imageSrc>images/carrots.jpeg</imageSrc>
+    <category>fresh-produce</category>
+  </Product>
+  <Product>
+    <id>7</id>
+    <name>Ice Cream</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-dessert</sub_category>
+    <imageSrc>images/ice cream.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>14</id>
+    <name>frozen muffin</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-bf</sub_category>
+    <imageSrc>images/frozen muffin.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>15</id>
+    <name>frozen steak</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-meal</sub_category>
+    <imageSrc>images/frozen steak.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>16</id>
+    <name>pizza</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-pizza</sub_category>
+    <imageSrc>images/pizza.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>17</id>
+    <name>meat</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-meat</sub_category>
+    <imageSrc>images/meat.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>18</id>
+    <name>pizza rolls</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category>frozen-snacks</sub_category>
+    <imageSrc>images/pizza rolls.jpeg</imageSrc>
+    <category>frozen</category>
+  </Product>
+  <Product>
+    <id>8</id>
+    <name>Bounty</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category/>
+    <imageSrc>images/bounty.jpeg</imageSrc>
+    <category>candy</category>
+  </Product>
+  <Product>
+    <id>9</id>
+    <name>Snickers</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category/>
+    <imageSrc>images/Snickers.jpeg</imageSrc>
+    <category>candy</category>
+  </Product>
+  <Product>
+    <id>34</id>
+    <name>Rind Chips</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category/>
+    <imageSrc>images/rind.jpeg</imageSrc>
+    <category>snacks</category>
+  </Product>
+  <Product>
+    <id>35</id>
+    <name>Little Bites</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category/>
+    <imageSrc>images/little bites.jpeg</imageSrc>
+    <category>snacks</category>
+  </Product>
+  <Product>
+    <id>36</id>
+    <name>Bold Chips</name>
+    <price>1.99</price>
+    <quantity>5</quantity>
+    <sub_category/>
+    <imageSrc>images/chips.jpeg</imageSrc>
+    <category>snacks</category>
+  </Product>
+</inventory>

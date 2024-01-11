@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>User Registration and Login</title>
+</head>
+<body>
+    <header>
+        <h1>Register/Login</h1>
+        <!-- <nav>
+            <ul>
+                <li><a href="fresh-products.php">Fresh Products</a></li>
+                <li><a href="frozen.php">Frozen</a></li>
+                <li><a href="pantry.php">Pantry</a></li>
+                <li><a href="breakfast.php">Breakfast and Cereal</a></li>
+                <li><a href="baking.php">Baking</a></li>
+                <li><a href="snacks.php">Snacks</a></li>
+                <li><a href="candy.php">Candy</a></li>
+                <li><a href="specialty.php">Specialty Shops</a></li>
+                <li><a href="deals.php">Deals</a></li>
+                <li><a href="my-account.php">My Account</a></li>
+                <li><a href="about-us.php">About Us</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
+                <li><a href="cart.php">Cart</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <main>
+        <section>
+            <div class="text-align-center banner-center-cover">
+                <p>Cakes and Pastries</p>
+            </div>
+        </section>
+        <!-- <aside>
+            <p>While Chocolate Cake is made primarily with cocoa powder and sometimes melted chocolate, Red Velvet Cake is made with a small amount of cocoa powder, but is also known for its signature bright red color, which is usually achieved by adding red food coloring to the batter.</p>
+        </aside> -->
+        <section>
+            <div class="container mt-5">
+                <div id="toggleButtons" class="mb-3">
+                    <button id="registerButton" class="btn btn-primary active" onclick="toggleForm('registrationForm')">Register</button>
+                    <button id="loginButton" class="btn btn-secondary" onclick="toggleForm('loginForm')">Login</button>
+                </div>
+
+                <!-- Registration Form -->
+                <!-- <h2 class="mb-4">User Registration</h2> -->
+                <form id="registrationForm" action="register.php" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" required minlength="8">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password:</label>
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="text" class="form-control" id="dob" name="dob" placeholder="MM/DD/YYYY" required pattern="\d{2}/\d{2}/\d{4}">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea class="form-control" id="address" name="address" required></textarea>
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+
+                <!-- Login Form -->
+                <form id="loginForm" action="login.php" method="post">
+                    <div class="form-group">
+                        <label for="loginUsername">Username:</label>
+                        <input type="text" class="form-control" id="loginUsername" name="loginUsername" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" class="form-control" id="loginPassword" name="loginPassword" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Harshil Ambalal Senghani (HAS220004)</p>
+        <div class="datetime" id="date_time"></div>
+    </footer>
+    <script src="timing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Hide login form on page load
+            document.getElementById('loginForm').style.display = 'none';
+        });
+
+        function toggleForm(formId) {
+            var registerForm = document.getElementById('registrationForm');
+            var loginForm = document.getElementById('loginForm');
+            var registerButton = document.getElementById('registerButton');
+            var loginButton = document.getElementById('loginButton');
+
+            if (formId === 'registrationForm') {
+                registerForm.style.display = 'block';
+                loginForm.style.display = 'none';
+                registerButton.classList.remove('btn-secondary');
+                registerButton.classList.add('btn-primary');
+                loginButton.classList.remove('btn-primary');
+                loginButton.classList.add('btn-secondary');
+            } else if (formId === 'loginForm') {
+                registerForm.style.display = 'none';
+                loginForm.style.display = 'block';
+                registerButton.classList.remove('btn-primary');
+                registerButton.classList.add('btn-secondary');
+                loginButton.classList.remove('btn-secondary');
+                loginButton.classList.add('btn-primary');
+            }
+        }
+
+    </script>
+</body>
+</html>
