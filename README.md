@@ -1,6 +1,6 @@
 # eCommerce Website - CS6314 Final Project
 
-Created Full stack website using HTML, CSS, JS, JQuery, MySql, PPHP, Apache Server
+Created Full stack e-Commerce website using HTML, CSS, JS, JQuery, XML, JSON, MySql, PHP, and Apache Server
 
 # To replicate ->
 
